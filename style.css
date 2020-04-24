@@ -1,0 +1,84 @@
+/**** ZERO STYLE ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** WRAPPER ****/
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #cfcfcf;
+}
+
+/**** APP ****/
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 700px;
+    height: 95vh;
+}
+
+/**** HEADER ****/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #296589;
+    width: 100%;
+    height: 10%;
+}
+
+/**** BODY ****/
+
+.content {
+    width: 100%;
+    height: 80%;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+.item input {
+    width: 20px;
+    height: 20px;
+}
+
+/**** BOTTOM ****/
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #296589;
+    width: 100%;
+    height: 10%;
+}
+
+.inp {
+    width: 50%;
+    height: 50%;
+}
+
+.btn {
+    width: 50px;
+    height: 50%;
+}
